@@ -2,13 +2,14 @@
 
 This is a basic starter app for angular on rails. The skeleton includes:
 
-gem 'angularjs-rails'
+- gem 'angularjs-rails'
 
-gem 'bootstrap-sass'
+- gem 'bootstrap-sass'
 
-gem 'underscore-rails'
+- gem 'underscore-rails'
 
-ngRoute and ngResource modules
+- ngRoute and ngResource modules
+
 
 The javascript folder defines a module (“myApp”) and an initial controller (“FirstController”), as well as an initial route for this controller.
 
