@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic starter app for angular on rails. The skeleton includes:
 
-Things you may want to cover:
+- gem 'angularjs-rails' 
+- gem 'bootstrap-sass'
+- gem 'underscore-rails'
+- ngRoute and ngResource modules
 
-* Ruby version
+The javascript folder defines a module ("myApp") and an initial controller ("FirstController"), as well as an initial route for this controller. 
 
-* System dependencies
+The default view is views/layouts/application.html.erb, which directs to other views held in public/templates/
 
-* Configuration
+No other changes have been made to the standard rails app skeleton.
 
-* Database creation
+To get started, simply bundle install. 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.

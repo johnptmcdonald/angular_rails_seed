@@ -14,8 +14,8 @@ app.config(function($routeProvider, $locationProvider){
   $locationProvider.html5Mode(true)
 });
 
+
 app.controller('FirstController', function($scope){
   console.log('FirstController is loading');
-
 
 });
